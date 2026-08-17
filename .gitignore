@@ -1,0 +1,46 @@
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Secrets and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Dependencies
+node_modules/
+
+# Caches, temporary files, and logs
+.cache/
+cache/
+tmp/
+temp/
+*.tmp
+*.log
+*.pid
+
+# Test and build caches
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
